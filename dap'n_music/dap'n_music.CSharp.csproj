@@ -219,9 +219,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Dapun_Controller.cs" />
-    <Compile Include="Assets\Radar_Controller.cs" />
-    <Compile Include="Assets\SimpleCircleLayoutGroup.cs" />
+    <ProjectReference Include="dap&apos;n_music.CSharp.Plugins.csproj">
+      <Project>{24017356-42BC-4631-A48F-BC9C931E3FE5}</Project>
+      <Name>dap&apos;n_music.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Script\Dapun_Controller.cs" />
+    <Compile Include="Assets\Script\Radar_Controller.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

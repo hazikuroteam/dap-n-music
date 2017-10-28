@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dap'n_music.CSharp", "dap'n_music.CSharp.csproj", "{68C78E5F-91F3-D635-5E52-054AC4219295}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dap'n_music.CSharp.Plugins", "dap'n_music.CSharp.Plugins.csproj", "{24017356-42BC-4631-A48F-BC9C931E3FE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{68C78E5F-91F3-D635-5E52-054AC4219295}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68C78E5F-91F3-D635-5E52-054AC4219295}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68C78E5F-91F3-D635-5E52-054AC4219295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24017356-42BC-4631-A48F-BC9C931E3FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24017356-42BC-4631-A48F-BC9C931E3FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24017356-42BC-4631-A48F-BC9C931E3FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24017356-42BC-4631-A48F-BC9C931E3FE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
